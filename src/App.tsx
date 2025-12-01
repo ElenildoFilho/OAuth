@@ -12,6 +12,7 @@ const App: React.FC = () => {
       try {
         const res = await handleCallback();
         if (res?.access_token) {
+          
           setToken(res.access_token);
         }
       } catch (e) {
