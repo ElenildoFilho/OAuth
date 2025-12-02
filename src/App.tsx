@@ -26,6 +26,7 @@ const App: React.FC = () => {
 
   if (loading) {
     
+
     return <p>Carregando autenticação...</p>;
   }
 
